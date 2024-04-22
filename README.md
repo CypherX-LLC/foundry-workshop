@@ -64,3 +64,16 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# Workshop
+
+## Remapping
+
+```shell
+forge remappings
+forge install transmissions11/solmate
+forge update lib/solmate
+forge remove solmate
+
+npm i @openzeppelin/contracts
+```

@@ -75,5 +75,6 @@ forge install transmissions11/solmate
 forge update lib/solmate
 forge remove solmate
 
-npm i @openzeppelin/contracts
+yarn
+yarn add @openzeppelin/contracts
 ```

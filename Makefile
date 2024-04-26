@@ -5,7 +5,6 @@
 # firt accounts private key
 DEFAULT_ANVIL_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 
-FORK_URL := https://eth-mainnet.g.alchemy.com/v2/VaRZKO_5vgSZeyPokDMzZBlSCDvkP2eR
 
 help:
 	@echo "Usage:"

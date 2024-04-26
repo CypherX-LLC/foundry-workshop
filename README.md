@@ -67,6 +67,8 @@ $ cast --help
 
 # Workshop
 
+## Anvil
+
 ## Remapping
 
 ```shell
@@ -78,3 +80,24 @@ forge remove solmate
 yarn
 yarn add @openzeppelin/contracts
 ```
+
+## Invariant & Fuzz Testing
+
+In Foundry: 
+- Fuzz Tests = Random Data to one function
+- Invariant Tests = Random Data & Random Function Calls to many functions
+
+### Invariant test
+
+Example:
+src/WETH9.invariants.t.sol
+
+
+
+## Ressources
+
+https://book.getfoundry.sh/
+https://mirror.xyz/horsefacts.eth/Jex2YVaO65dda6zEyfM_-DXlXhOWCAoSpOx5PLocYgw
+https://github.com/Cyfrin/foundry-defi-stablecoin-f23
+https://dev.to/stefanalfbo/foundry-chisel-ggl
+

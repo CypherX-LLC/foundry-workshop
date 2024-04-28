@@ -13,3 +13,6 @@ node_modules
 .env
 
 fork_memo.txt
+
+out/
+cache/

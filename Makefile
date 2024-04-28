@@ -25,13 +25,17 @@ remove:; forge remove solmate
 install :; forge install transmissions11/solmate --no-commit && && forge install openzeppelin/openzeppelin-contracts --no-commit
 
 # Update Dependencies
-update:; forge update
+update :; forge update
 
-build:; forge build
+build :; forge build
 
 test :; forge test
 
 test_whale :; forge test --fork-url $(FORK_URL) --match-path test/Whale.t.sol -vvv
+
+test_inv :; forge test --match-path test/WETH9.invariants.t.sol
+
+test_diff:; FOUNDRY_FUZZ_RUNS=100 forge test --match-path test/Exp.differential.t.sol --ffi -vvv
 
 coverage :; forge coverage --report debug > coverage-report.txt
 
